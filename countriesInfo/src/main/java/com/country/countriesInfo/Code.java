@@ -1,7 +1,6 @@
 package com.country.countriesInfo;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -10,7 +9,6 @@ import org.springframework.web.client.RestTemplate;
 import com.country.countriesInfo.models.ApiResponse;
 import com.country.countriesInfo.models.ListOfCountries;
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
 @Service
 public class Code {
